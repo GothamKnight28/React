@@ -1,0 +1,28 @@
+GET http://localhost:5000/users/
+
+
+###
+
+POST http://localhost:5000/users/login
+Content-Type : application/json
+
+{   
+    "gmail" : "4@gmail.com",
+    "password" : "1"
+}
+
+###
+
+DELETE http://localhost:5000/posts/637a429b6cd769b805763d42
+
+###
+
+
+# PATCH http://localhost:5000/posts/637775f2b2f4c6e2c298726a
+
+# Content-Type: application/json
+
+# {
+#     "name": "Patched" ,
+#     "content" : "Patched content"
+# }
